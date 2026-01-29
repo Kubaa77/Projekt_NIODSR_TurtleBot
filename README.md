@@ -19,30 +19,8 @@ System umożliwia sterowanie mobilnym robotem TurtleBot3 (model Burger) za pomoc
 
 ## Instrukcja uruchomienia
 
-### Opcja A: Docker (Plug-and-Play)
-Ta metoda nie wymaga posiadania zainstalowanego ROS 2 na komputerze. Wymagany jest jedynie zainstalowany silnik Docker.
 
-Aby uruchomić projekt, najpierw pobierz repozytorium na swój komputer i wejdź do katalogu projektu:
-```bash
-git clone https://github.com/Kubaa77/Projekt_NIODSR_TurtleBot.git
-cd Projekt_NIODSR_TurtleBotO
-```
-
-Skrypt `run_docker.sh` automatycznie:
-1. Buduje obraz z niezbędnymi zależnościami (ROS 2, OpenCV).
-2. Konfiguruje przekazywanie obrazu graficznego (GUI).
-3. Uruchamia symulację i sterownik.
-
-**Komendy:**
-```bash
-# 1. Nadaj uprawnienia wykonywania (tylko pierwszy raz)
-chmod +x run_docker.sh
-
-# 2. Uruchom projekt
-./run_docker.sh
-```
-
-### Opcja B:Uruchomienie Lokalne 
+### Uruchomienie Lokalne 
 
 Ta metoda wymaga lokalnie zainstalowanego ROS 2 Humble oraz pakietów symulacyjnych TurtleBot3.
 
